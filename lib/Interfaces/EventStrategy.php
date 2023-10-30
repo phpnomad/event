@@ -1,6 +1,6 @@
 <?php
 
-namespace Phoenix\Events\Interfaces;
+namespace PHPNomad\Events\Interfaces;
 interface EventStrategy
 {
     public function broadcast(Event $event): void;
