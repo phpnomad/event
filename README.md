@@ -17,7 +17,7 @@ class OrderReceived implements Event
     }
 }
 
-final class WooCommerceIntegration implements Loadable, CanSetContainer
+final class WooCommerceIntegration implements Loadable
 {
     use HasSettableContainer;
 
